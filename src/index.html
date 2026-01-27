@@ -6,27 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body class="font-[Comic Neue]">
     <div class="bg-[#F0F0F0]">
-        <div class="ALL_STEPS w-[95%] m-auto">
+        <div class="ALL_STEPS w-[93%] m-auto">
 
 
-            <div class="STEP-1 flex items-center justify-between pt-[35px] pb-[80px]">
+            <div class="STEP-1 flex items-center justify-between pt-[35px] pb-[80px] max-sm:py-[10px]">
                 <div class="flex items-center gap-[40px]">
                     <img src="./Business-img/Oval 3.png" alt="">
-                    <p>About us</p>
-                    <p>How it works</p>
-                    <p>Pricing</p>
-                    <p>FAQs</p>
+                    <p class="max-sm:hidden">About us</p>
+                    <p class="max-sm:hidden">How it works</p>
+                    <p class="max-sm:hidden">Pricing</p>
+                    <p class="max-sm:hidden">FAQs</p>
                 </div>
 
-                <div class="flex gap-[40px] items-center">
+                <div class="flex gap-[40px] items-center max-sm:hidden">
                     <p>Login</p>
                     <button class="text-white bg-black p-[12px_36px]">Sign Up</button>
                 </div>
+                <img src="./Business-img/Button_black.png" alt="" class="hidden max-sm:inline ">
             </div>
+
+            <div class="STEP-2 flex gap-[50px] max-sm:flex-col">
+                <div>
+                    <p class="text-[80px] text-[#151515] leading-[90px] max-sm:text-[33px] max-sm:leading-[34px]">Always Track & 
+                        Analyze Your Business 
+                        Statistics To Succeed.</p>
+                    <p class="text-[#151515] text-[18px] mt-[20px]">A better way to manage your sales, team, clients &
+                        marketing <br>
+                        — on a single platform. Powerful, affordable & easy.</p>
+
+                    <div class="bg-white border-[1px] border-black w-[56%] flex justify-between mt-[40px] mb-[80px] max-sm:my-[40px]">
+                        <input type="text" placeholder="Enter your email" class="pl-[20px]">
+                        <button class="text-white bg-black p-[12px_46px]">Get Started</button>
+
+                    </div>
+
+                    <div class="flex gap-[30px] items-center">
+                        <img src="./Business-img/m_mastercard.png" alt="">
+                        <img src="./Business-img/m_paypall.png" alt="">
+                        <img src="./Business-img/m_visa.png" alt="">
+                    </div>
+                </div>
+                <img src="./Business-img/Illustration_1.png" alt="">
+            </div>
+
+
         </div>
     </div>
 </body>
